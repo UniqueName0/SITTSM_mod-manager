@@ -3,8 +3,6 @@ import urllib
 import zipfile
 import os
 
-#urllib.urlretrieve("http://www.example.com/songs/mp3.mp3", "mp3.mp3")
-
 layout = [
 [sg.Text("select game folder: "), sg.Input(), sg.FolderBrowse()],
 [sg.Text("                              ^this should be the same folder as the exe for the game^")],
