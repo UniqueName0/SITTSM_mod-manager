@@ -13,6 +13,7 @@ layout = [
 [sg.Checkbox("enable cheats")],
 [sg.Checkbox("remove promotion per floor limit")],
 [sg.Checkbox("disable sleep")],
+[sg.Checkbox("randomize promotions")],
 [sg.Button("confirm")]
 
           ]
@@ -43,4 +44,5 @@ while True:
     sus(1, "enable-cheats", "https://github.com/UniqueName0/SITTSM_enable-cheats-mod/raw/main/enable-cheats.dll")
     sus(2, "remove-promotions-limit", "https://github.com/UniqueName0/SITTSM_remove-promotions-per-floor-limit-mod/raw/main/remove-promotions-limit.dll")
     sus(3, "remove-sleep-effect", "https://github.com/UniqueName0/SITTSM_remove-promotions-per-floor-limit-mod/raw/main/remove-promotions-limit.dll")
+    sus(4, "randomize-promotions", "https://github.com/UniqueName0/SITTSM_randomize-promotions/raw/main/randomize-promotions.dll")
 window.Close()
