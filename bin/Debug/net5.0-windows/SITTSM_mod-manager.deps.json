@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SITTSM_mod-manager/1.0.0": {
+        "runtime": {
+          "SITTSM_mod-manager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SITTSM_mod-manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

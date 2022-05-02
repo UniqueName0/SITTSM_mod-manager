@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <RootNamespace>SITTSM_mod_manager</RootNamespace>
+        <UseWPF>true</UseWPF>
+        <NoWin32Manifest>true</NoWin32Manifest>
+    </PropertyGroup>
+
+</Project>

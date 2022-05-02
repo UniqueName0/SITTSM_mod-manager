@@ -1,0 +1,28 @@
+﻿<Window x:Class="SITTSM_mod_manager.MainWindow" ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SITTSM_mod_manager"
+        mc:Ignorable="d"
+        Title="SITTSM mod manager" Height="390" Width="800">
+    <WrapPanel>
+        <TextBlock Width="784" Height="50" FontSize="30" FontWeight="DemiBold" TextAlignment="Center">SITTSM mod manager</TextBlock>
+
+        <TextBox Width="600" Height="25" FontSize="15" Name="exeText">select the game's exe</TextBox>
+        <Button Name="browseExeBtn" Click="browseExe" Width="184" Height="25">Browse</Button>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Width="392" Height="100">
+            <ScrollViewer.RenderTransform>
+                <ScaleTransform CenterX="0" CenterY="0" ScaleX="2" ScaleY="2" />
+            </ScrollViewer.RenderTransform>
+            <StackPanel  Name="mods">
+
+            </StackPanel>
+        </ScrollViewer>
+        <DockPanel Width="784" Height="50" HorizontalAlignment="Center" Margin="0 110 0 0">
+            <Button DockPanel.Dock="Left" Click='ActivateMods' HorizontalAlignment="Left" Width="100" Height="50" Margin="10 0 0 0" Content="activate mods"/>
+            <Button DockPanel.Dock="Right" Click='StartGame' HorizontalAlignment="right" Width="100" Height="50" Margin="0 0 10 0" Content="start game"/>
+            <TextBlock DockPanel.Dock="Right" VerticalAlignment="Center" TextAlignment="Center" FontSize="15" x:Name="status" Width="550"/>
+        </DockPanel>
+    </WrapPanel>
+</Window>
